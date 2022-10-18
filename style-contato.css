@@ -90,6 +90,21 @@ nav a:hover {
     text-decoration: underline;
 }
 
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background-color: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ;
+}
+
 footer {
     text-align: center;
     background: url("bg.jpg");

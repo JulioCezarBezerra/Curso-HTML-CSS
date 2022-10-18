@@ -29,58 +29,133 @@ nav a {
     
 }
 
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
 nav a:hover {
     color: #7d92b3;
     text-decoration: underline;
 }
-#banner {
-    width: 100%;
+
+.produtos {
+    width: 940px;
+    margin:0 auto;
+    padding: 50px 0;
 }
 
-.principal {
-    background-color: #CCCCCC;
-    padding: 30px;
+.produtos li:hover {
+    border-color: #7d92b3;
+    font-size: 40px;
 }
 
-.titulo-principal {
-    padding-left: 20px;
+.produtos li:active {
+    border-color: red;
 }
 
-.titulo-centralizado {
-    text-align: center
-
-}
-p {
-    text-align: center;
+.produtos li:hover h2 {
+    font-size: 35px;
 }
 
-#missao {
-    font-size: 20px
-}
-
-em  strong {
-    color: red
-}
-
-.itens {
-    font-style: italic;
-}
-
-.beneficios {
-    background-color: #FFFFFF;
-    padding: 20px;
-}
-
-ul {
+.produtos li { 
     display: inline-block;
+    text-align: center;
+    width: 30%;
     vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 
-.imagembeneficios {
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+}
+
+.preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padrao, textarea {
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
     width: 50%;
 }
+
+.comopref {
+    margin: 20px;
+}
+
+input {
+    display: inline;
+}
+
+p {
+    margin-top: 40px;
+}
+
+.checkbox {
+    margin: 20px;
+}
+
+.enviar {
+    width: 40%;
+    padding: 15px 0;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgb(197, 48, 48);
+    transform: scale(1.2);
+    
+}
+
+nav a:hover {
+    color: #7d92b3;
+    text-decoration: underline;
+}
+
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background-color: #555555;
+    font-weight: bold;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px 15px ;
+}
+
 footer {
     text-align: center;
     background: url("bg.jpg");

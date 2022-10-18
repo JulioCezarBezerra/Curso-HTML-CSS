@@ -231,6 +231,8 @@ footer {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 0.3;
+    transition: 400ms;
 }
 
 .mapa {

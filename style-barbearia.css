@@ -229,10 +229,19 @@ footer {
     vertical-align: top;
 }
 
+.itens:before {
+    content: "✯";
+}
+
 .imagem-beneficios {
     width: 60%;
-    opacity: 0.3;
+    opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 5px 5px #000000;
+}
+
+.imagem-beneficios:hover {
+    opacity: 0.3;
 }
 
 .mapa {
